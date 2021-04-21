@@ -1,87 +1,146 @@
-/* CSS Utilities */
-p{
+/* Utilies */
+.no-margin{
   margin: 0;
 }
-
-/* Rest of the CSS code */
-.wrapper{
-  width: 95%;
-  margin: 2rem auto;
+.f-400{
+  font-weight: 400;
 }
 
-@media screen and (min-width: 1000px){
+.f-700{
+  font-weight: 700;
+}
+/* Rest of the CSS */
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 20% 80%;
+  grid-template-areas:
+  "i i i i i i i i i i i i"
+  "c c f f f f f f f f f f";
+}
+@media screen and (max-width: 1000px){
   .wrapper{
-    width: 50%;
+      grid-template-areas: initial;
+      grid-template-rows: 10% auto 50%;
   }
 }
-
-.profile-card{
+.image-bar{
+  grid-area: i;
+  background-image:url(./Images/img-bar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 1000px){
+  .image-bar{
+      grid-area: initial;
+      grid-column: 1 / -1;
+  }
+}
+.contact-bar{
+  grid-area: c;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  color: #e8e8e8;
+  padding: 1.5rem;
+}
+@media screen and (max-width: 1000px){
+  .contact-bar{
+      grid-area: initial;
+      grid-column: 1 / -1;
+  }
+}
+.contact-info-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+}
+.contact-name{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.contact-name > p:nth-child(1){
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.contact-name > p:nth-child(2){
+  font-size: 1.6rem;
+}
+.contact-image {
+  width: 10rem;
+  height: 10rem;
+  margin-top: -7rem;
+  background-image: url(./Images/profile-01.jpg);
+  background-position: center center;
+  background-size: cover;
+  border: none;
+  border-radius: 10rem;
+}
+.location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location > i{
+  margin-right: 0.5rem;
+}
+.contact-info-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}
+.contact-info-2 > p{
+  font-size: 2rem;
+  text-transform: lowercase;
+}
+.info-div{
+  text-align: center;
+  margin: 1rem 0;
+}
+.info-div > i{
+  margin-bottom: 1rem;
+}
+.info-div > a{
+  text-decoration: none;
+  color: #e8e8e8;
+  font-size: 2rem;
+}
+.theme-changer{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50rem;
+  height: 10rem;
+  border-top: 1px solid #e8e8e8;
 }
-
-@media screen and (min-width: 1000px){
-  .profile-card{
-    flex-direction: row;
+.theme-changer > p{
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.btn{
+  width: 5rem;
+  height: 50%;
+  font-size: 2.5rem;
+  border: none;
+  border-radius: 10rem;
+  color: #2b2b2b;
+}
+.content{
+  grid-area: f;
+  background-color: bisque;
+}
+@media screen and (max-width: 1000px){
+  .content{
+      grid-area: initial;
+      grid-column: 1 / -1;
   }
-}
-
-.image-container{
-  width: 100%;
-  height: 95%;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-
-.image{
-  background-image: url(./Images/profile-01.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-
-.description-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333333;
-  width: 100%;
-  height: 5rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-}
-
-@media screen and (min-width: 1000px){
-  .image-container{
-    height: 100%;
-    border-radius: 0;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-  
-  .image{
-    border-radius: 0;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-  
-  .description-container{
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-}
-
-.description-container > p{
-  margin: 0;
 }
