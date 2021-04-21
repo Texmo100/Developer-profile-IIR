@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { FaMapMarkerAlt, FaEnvelope, FaMobileAlt, FaGithub, FaMoon} from 'react-icons/fa';
 
 class Contact_info extends Component {
     render() {
@@ -12,7 +13,7 @@ class Contact_info extends Component {
                         <p className="no-margin f-400">Iñiguez Ruiz Isaac</p>
                     </div>
                     <div className="location">
-                        <i className="fas fa-map-marker-alt"></i>
+                        <FaMapMarkerAlt className="location-icon"/>
                         <p className="no-margin">Hermosillo, Sonora</p>
                     </div>
                 </div>
@@ -21,16 +22,16 @@ class Contact_info extends Component {
                     <p className="no-margin f-700">Contacto</p>
 
                     <div className="info-div">
-                        <i className="fas fa-envelope"></i>
+                        <FaEnvelope className="envelope-icon"/>
                         <p className="no-margin">ir.isaac1000@gmail.com</p>
                     </div>
                     <div className="info-div">
-                        <i className="fas fa-mobile-alt"></i>
+                        <FaMobileAlt />
                         <p className="no-margin">+52 6621194655</p>
                     </div>
                     <div className="info-div">
                         <a href="https://github.com/Texmo100">
-                            <i className="fab fa-github"></i>
+                            <FaGithub />
                             <p className="no-margin">Texmo100</p>
                         </a>
                     </div>
@@ -39,7 +40,7 @@ class Contact_info extends Component {
                 <div className="theme-changer">
                     <p className="no-margin">Tema</p>
                     <button className="btn">
-                        <i className="icon-change fas fa-moon"></i>
+                        <FaMoon />
                     </button>
                 </div>
 

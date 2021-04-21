@@ -11,6 +11,7 @@
 }
 /* Rest of the CSS */
 .wrapper{
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 20% 80%;
@@ -85,7 +86,7 @@
   justify-content: center;
   align-items: center;
 }
-.location > i{
+.location-icon{
   margin-right: 0.5rem;
 }
 .contact-info-2{
@@ -105,7 +106,7 @@
   text-align: center;
   margin: 1rem 0;
 }
-.info-div > i{
+.envelope-icon{
   margin-bottom: 1rem;
 }
 .info-div > a{
@@ -127,8 +128,11 @@
   margin-bottom: 0.5rem;
 }
 .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 5rem;
-  height: 50%;
+  height: 5rem;
   font-size: 2.5rem;
   border: none;
   border-radius: 10rem;
