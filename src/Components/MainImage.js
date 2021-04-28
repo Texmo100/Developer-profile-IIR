@@ -6,9 +6,8 @@ class MainImage extends Component{
         return(
             <div className="main-image">
                 <div className="image-layer">
-                    <div className="container">
-                        <NavBar />
-                    </div>
+                    <NavBar />
+                    <div className="container"></div>
                 </div>
             </div>
         )
