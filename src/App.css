@@ -19,7 +19,7 @@ p, h1{
 .main-image, .about-me, .projects, .contact-me{
   grid-column: 1 / -1;
 }
-
+/*---- Main Image styles ----*/
 .main-image{
   background-image: url(./Images/img-bar.jpg);
   background-position: center center;
@@ -32,14 +32,39 @@ p, h1{
   height: 100vh;
   color: white;
 }
+.container{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+li{
+  margin: 0 2rem;
+  padding: 0;
+  font-size: 1.8rem;
+}
+li:last-of-type{
+  margin-right: 0;
+}
+
+/*---- About Me styles ----*/
 .about-me{
   background-color: #333333;
 }
+
+/*---- Projects styles ----*/
 
 .projects{
   background-color: #404040;
 }
 
+/*---- Contact Me styles ----*/
 .contact-me{
   background-color: #2b2b2b;
 }
