@@ -7,7 +7,10 @@ class MainImage extends Component{
             <div className="main-image">
                 <div className="image-layer">
                     <NavBar />
-                    <div className="container"></div>
+                    <div className="container container-main-image">
+                        <h1 className="f-400">Hey there, i'm Isaac I.R. a Frontend Developer</h1>
+                        <button className="button">Let's talk</button>
+                    </div>
                 </div>
             </div>
         )
