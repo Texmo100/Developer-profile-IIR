@@ -4,7 +4,7 @@ import NavBar from './Navbar'
 class MainImage extends Component{
     render(){
         return(
-            <div className="main-image">
+            <section className="main-image">
                 <div className="image-layer">
                     <NavBar />
                     <div className="container container-main-image">
@@ -12,7 +12,7 @@ class MainImage extends Component{
                         <button className="button">Let's talk</button>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }
