@@ -3,6 +3,7 @@ import MainImage from './Components/MainImage'
 import AboutMe from './Components/AboutMe'
 import Projects from './Components/Projects'
 import ContactMe from './Components/ContactMe'
+import Footer from './Components/Footer'
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <AboutMe />
         <Projects />
         <ContactMe />
+        <Footer />
       </div>
     );
   }
