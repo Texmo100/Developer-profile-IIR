@@ -8,7 +8,7 @@ class AboutMe extends Component{
                 <div className=" container container-about-me">
                     <div className="image-profile"></div>
                     <div className="image-profile-desc">
-                        <h2>About me</h2>
+                        <h2 className="f-700">About me</h2>
                         <button className="button-about-me">View more</button>
                     </div>
                 </div>
