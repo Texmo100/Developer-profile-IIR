@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import ProjectCards from './ProjectCards'
 
 class Projects extends Component{
     render(){
@@ -6,7 +7,7 @@ class Projects extends Component{
             <main className="projects">
                 <div className="container container-projects">
                     <h3>Projects</h3>
-                    <div className="container-cards"></div>
+                    <ProjectCards />
                     <button className="button-projects">View all projects</button>
                 </div>
             </main>
