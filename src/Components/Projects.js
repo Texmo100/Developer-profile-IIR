@@ -8,7 +8,7 @@ class Projects extends Component{
                 <div className="container container-projects">
                     <h3>Projects</h3>
                     <ProjectCards />
-                    <button className="button-projects">View all projects</button>
+                    <button className="button-all-projects">View all projects</button>
                 </div>
             </main>
         )

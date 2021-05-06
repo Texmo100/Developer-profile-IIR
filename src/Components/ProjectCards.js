@@ -1,8 +1,13 @@
 import React from 'react'
+import CardProject from './CardProject'
 
 const ProjectCards = () => {
     return(
-        <div className="container-cards"></div>
+        <div className="container-cards">
+            <CardProject />
+            <CardProject />
+            <CardProject />
+        </div>
     )
 }
 
