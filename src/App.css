@@ -28,7 +28,8 @@ ul{
   height: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 100vh) 20rem
+  grid-template-rows: repeat(4, 100vh) 20rem;
+  row-gap: 2rem;
 }
 @media screen and (max-width: 980px){
   .wrapper{
@@ -147,7 +148,6 @@ ul{
 /*---- About Me styles ----*/
 .about-me{
   background-color:white;
-  padding: 1rem;
 }
 .container-about-me{
   background-color: #fffafa;
@@ -200,7 +200,7 @@ ul{
   border-radius: 10rem;
   color: #e8e8e8;
   font-size: 1.6rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding: 1rem;
   transition: all 300ms;
 }
@@ -224,11 +224,11 @@ ul{
 h3{
   font-size: 5.5rem;
   text-align: center;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 }
 /*---- Projects Cards ----*/
 .container-cards{
-  height: 80%;
+  height: calc(100% - 1rem);
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 100%;
@@ -236,7 +236,6 @@ h3{
 }
 @media screen and (max-width: 980px){
   .container-cards{
-    height: 100%;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, 50rem);
     column-gap: initial;
@@ -252,10 +251,14 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f1f1f1;
   width: 100%;
   height: 70%;
   border-radius: 1rem;
+  background-image: url(./Images/project-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 90%;
 }
 .project-info{
   display: flex;
@@ -347,6 +350,8 @@ h3{
   display: flex;
   background-color: #fffafa;
   color: #2b2b2b;
+  border-radius: 1rem;
+  padding: 0;
 }
 .contact-me-desc{
   display: flex;
@@ -355,6 +360,16 @@ h3{
   align-items: center;
   width: 50%;
   height: 100%;
+}
+@media screen and (max-width: 980px){
+  .container-contact-me{
+    flex-direction: column;
+    border: 1px solid #aeaeae;
+  }
+  .contact-me-desc{
+    width: 100%;
+    height: 50%;
+  }
 }
 h4{
   font-size: 5rem;
@@ -367,13 +382,28 @@ h4{
   margin-top: 2rem;
 }
 .contact-me-items > li{
+  display: flex;
+  align-items: center;
   font-size: 1.6rem;
 }
+.contact-me-items > li > p{
+  margin: 1rem 0;
+  margin-left: 1rem;
+}
 .image-contact-me{
-  background-color: #aeaeae;
+  background-image: url(./Images/profile-02.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 50%;
   height: 100%;
   border-radius: 1rem;
+}
+@media screen and (max-width: 980px){
+  .image-contact-me{
+    width: 100%;
+    height: 50%;
+  }
 }
 /*---- Footer styles ----*/
 .footer-site{
@@ -392,5 +422,5 @@ h4{
 }
 .footer-site > p{
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }

@@ -5,7 +5,7 @@ const CardProject = () => {
     return(
         <div className="card-project">
             <div className="image-project">
-                <FaCode style={{fontSize: "10rem", color: "#aeaeae"}}/>
+                <FaCode style={{fontSize: "10rem", color: "rgba(0, 0, 0, 0.5)"}}/>
             </div>
             <div className="project-info">
                 <p className="project-title">Project title</p>
