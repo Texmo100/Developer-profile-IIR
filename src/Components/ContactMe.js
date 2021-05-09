@@ -14,7 +14,7 @@ class ContactMe extends Component{
                         <h4>Get in Touch</h4>
                         <ul className="contact-me-items">
                             <li> 
-                                <MdMail style={{fontSize: "3rem", color: "#7E2C7E"}}/> 
+                                <MdMail style={{fontSize: "3rem", color: "#8B008B"}}/> 
                                 <p>ir.isaac1000@gmail.com</p>
                             </li>
                             <li> 

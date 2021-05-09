@@ -28,15 +28,14 @@ ul{
   height: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 100vh) 20rem;
+  grid-template-rows: repeat(4, 100vh) 15rem;
   row-gap: 2rem;
 }
 @media screen and (max-width: 980px){
   .wrapper{
-    grid-template-rows: 100vh 100vh auto 100vh 20rem;
+    grid-template-rows: 100vh 100vh auto 100vh 15rem;
   }
 }
-
 .main-image, .about-me, .projects, .contact-me, .footer-site{
   grid-column: 1 / -1;
 }
@@ -144,13 +143,15 @@ ul{
     background-color: transparent;
     border-radius: initial;
   }
+  .navbar-list-container > li:hover{
+    font-size: 2.1rem;
+  }
 }
 /*---- About Me styles ----*/
 .about-me{
   background-color:white;
 }
 .container-about-me{
-  background-color: #fffafa;
   display: flex;
   border-radius: 1rem;
   padding: 0;
@@ -198,7 +199,7 @@ ul{
   border: none;
   background-color: aqua;
   border-radius: 10rem;
-  color: #e8e8e8;
+  color: white;
   font-size: 1.6rem;
   margin-top: 2rem;
   padding: 1rem;
@@ -206,14 +207,13 @@ ul{
 }
 .button-about-me:hover{
   cursor: pointer;
-  background-color: #fffafa;
+  background-color: white;
   border: 1px solid aqua;
   color: aqua;
 }
-
 /*---- Projects styles ----*/
 .projects{
-  background-color: #fffafa;
+  background-color: white;
   color: #2b2b2b;
 }
 .container-projects{
@@ -243,7 +243,6 @@ h3{
   }
 }
 .card-project{
-  background-color: #f1f1f1;
   border-radius: 1rem;
   border: 1px solid #aeaeae;
 }
@@ -291,9 +290,9 @@ h3{
   width: 20rem;
   height: 4rem;
   border: none;
-  background-color: #7E2C7E;
+  background-color: #8B008B;
   border-radius: 10rem;
-  color: #e8e8e8;
+  color: white;
   font-size: 1.6rem;
   margin-top: 2rem;
   padding: 1rem;
@@ -301,9 +300,9 @@ h3{
 }
 .button-project-card:hover{
   cursor: pointer;
-  background-color: #f1f1f1;
-  border: 1px solid #7E2C7E;
-  color: #7E2C7E;
+  background-color: white;
+  border: 1px solid #8B008B;
+  color: #8B008B;
 }
 @media screen and (max-width: 980px){
   .button-project-card{
@@ -311,7 +310,6 @@ h3{
   }
 
 }
-
 /*---- Button view all projects ----*/
 .button-all-projects{
   display: block;
@@ -335,11 +333,10 @@ h3{
 }
 .button-all-projects:hover{
   cursor: pointer;
-  background-color: #fffafa;
+  background-color: white;
   border: 1px solid aqua;
   color: aqua;
 }
-
 /*---- Contact Me styles ----*/
 .contact-me{
   background-color: white;
@@ -347,7 +344,6 @@ h3{
 }
 .container-contact-me{
   display: flex;
-  background-color: #fffafa;
   color: #2b2b2b;
   border-radius: 1rem;
   padding: 0;
@@ -411,7 +407,7 @@ h4{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #e8e8e8;
+  color: white;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
