@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import ProjectCards from './ProjectCards'
+import ProjectCards from '../Projects/ProjectCards'
 
-class Projects extends Component{
+class ProjectsSection extends Component{
     render(){
         return(
             <main className="projects">
@@ -15,4 +15,4 @@ class Projects extends Component{
     }
 }
 
-export default Projects
+export default ProjectsSection

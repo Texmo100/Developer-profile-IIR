@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaGitlab } from 'react-icons/fa';
 
-class ContactMe extends Component{
+class ContactMeSection extends Component{
     render(){
         return(
             <section className="contact-me">
@@ -42,4 +42,4 @@ class ContactMe extends Component{
     }
 }
 
-export default ContactMe
+export default ContactMeSection

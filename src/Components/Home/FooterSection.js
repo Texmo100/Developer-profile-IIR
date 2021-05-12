@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { FaReact } from 'react-icons/fa';
 
-class Footer extends Component{
+class FooterSection extends Component{
     render(){
         return(
             <footer className="footer-site">
@@ -12,4 +12,4 @@ class Footer extends Component{
     }
 }
 
-export default Footer
+export default FooterSection

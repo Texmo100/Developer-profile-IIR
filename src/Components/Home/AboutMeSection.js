@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
 
-class AboutMe extends Component{
+class AboutMeSection extends Component{
     render(){
         return(
             <section className="about-me">
@@ -17,4 +17,4 @@ class AboutMe extends Component{
     }
 }
 
-export default AboutMe
+export default AboutMeSection

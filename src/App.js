@@ -1,22 +1,36 @@
-import React, {Component} from 'react'
-import MainImage from './Components/MainImage'
-import AboutMe from './Components/AboutMe'
-import Projects from './Components/Projects'
-import ContactMe from './Components/ContactMe'
-import Footer from './Components/Footer'
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import NavBar from './Components/Navbar'
+import Home from './Components/Home/Home'
 import './App.css';
 
 class App extends Component {
-  render(){
+  render() {
+
+    //Mini component about me
+    const RenderAboutMe = () => {
+      return(
+        <div style={{height: "200vh", display: "flex", justifyContent: "center", alignItems: "center"}}>
+          <h1 style={{color: "#2b2b2b"}}>About me</h1>
+        </div>
+      )
+    }
     return (
-      <div className="wrapper">
-        <MainImage />
-        <AboutMe />
-        <Projects />
-        <ContactMe />
-        <Footer />
-      </div>
-    );
+      <Router>
+        {/* ---- Navbar ---- */}
+        <NavBar />
+        {/* ---- Switch ---- */}
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          
+          <Route path="/aboutme">
+            <RenderAboutMe />
+          </Route>
+        </Switch>
+      </Router>
+    )
   }
 }
 
