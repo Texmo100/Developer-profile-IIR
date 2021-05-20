@@ -57,7 +57,7 @@ ul{
     grid-template-rows: 100vh 100vh auto 100vh 15rem;
   }
 }
-.main-image, .about-me, .projects, .contact-me, .footer-site{
+.main-image, .about-me, .projects, .contact-me, .footer{
   grid-column: 1 / -1;
 }
 /*---- Main Image styles ----*/
@@ -410,7 +410,7 @@ h4{
   }
 }
 /*---- Footer styles ----*/
-.footer-site{
+.footer{
   background-color: var(--color-footer);
   display: flex;
   flex-direction: column;
@@ -424,16 +424,62 @@ h4{
   font-size: 5rem;
   color: var(--y-color);
 }
-.footer-site > p{
+.footer > p{
   font-size: 2rem;
   margin-top: 0.5rem;
 }
 
-/*---- Contact me page styles ----*/
-.wrapper-contact-me{
+/*---- General inner pages styles ----*/
+.wrapper-inner-pages{
   height: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 100vh) 15rem;
-  row-gap: 2rem;
+  grid-template-rows: 20rem 100vh 15rem;
+}
+.header-image, .content-page, .footer{
+  grid-column: 1 / -1;
+}
+.header-image-contact-me{
+  background-image: url(./Images/img-bar.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-image-about-me{
+  background-image: url(./Images/profile-01.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-image-projects{
+  background-image: url(./Images/profile-02.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-image-project-details{
+  background-image: url(./Images/project-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-inner-pages{
+  width: 90%;
+  height: 100%;
+  background-color: var(--white);
+  border-radius: 1rem;
+  margin-top: -10rem;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 980px){
+  .container-inner-pages{
+    width: 95%;
+    margin-top: 0;
+  }
 }

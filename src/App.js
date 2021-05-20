@@ -4,6 +4,8 @@ import NavBar from './Components/Navbar'
 import Home from './Components/Home/Home'
 import ContactMe from './Components/ContactMe/ContactMe'
 import AboutMe from './Components/AboutMe/AboutMe'
+import Projects from './Components/Projects/Projects'
+import ProjectDetails from './Components/Projects/ProjectDetails'
 import ScrollToTop from './Components/ScrollToTop'
 import './App.css';
 
@@ -27,6 +29,14 @@ class App extends Component {
 
           <Route path="/aboutme">
             <AboutMe />
+          </Route>
+
+          <Route path="/projects">
+            <Projects />
+          </Route>
+
+          <Route path="/projectdetails">
+            <ProjectDetails />
           </Route>
 
         </Switch>

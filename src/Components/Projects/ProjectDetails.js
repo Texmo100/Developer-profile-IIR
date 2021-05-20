@@ -2,10 +2,10 @@ import React from 'react'
 import GlobalHeader from '../GlobalHeader'
 import FooterSection from '../FooterSection'
 
-const ContactMe = () => {
+const ProjectDetails = () => {
     return (
         <div className="wrapper-inner-pages">
-            <GlobalHeader image="header-image-contact-me"/>
+            <GlobalHeader image="header-image-project-details" />
             <div className="content-page">
                 <div className="container-inner-pages"></div>
             </div>
@@ -14,4 +14,4 @@ const ContactMe = () => {
     )
 }
 
-export default ContactMe
+export default ProjectDetails
