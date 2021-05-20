@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import NavBar from './Components/Navbar'
 import Home from './Components/Home/Home'
+import ContactMe from './Components/ContactMe/ContactMe'
 import AboutMe from './Components/AboutMe/AboutMe'
 import ScrollToTop from './Components/ScrollToTop'
 import './App.css';
@@ -15,13 +16,19 @@ class App extends Component {
         <NavBar />
         {/* ---- Switch ---- */}
         <Switch>
+          
           <Route exact path="/">
             <Home />
           </Route>
-          
+
+          <Route path="/contactme">
+            <ContactMe />
+          </Route>
+
           <Route path="/aboutme">
             <AboutMe />
           </Route>
+
         </Switch>
       </Router>
     )

@@ -8,7 +8,7 @@ import FooterSection from '../FooterSection'
 class Home extends Component{
     render(){
         return(
-            <div className="wrapper">
+            <div className="wrapper-home">
               <MainImageSection />
               <AboutMeSection />
               <ProjectsSection />

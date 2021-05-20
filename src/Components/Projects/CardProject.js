@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaCode } from 'react-icons/fa';
+import {Link} from 'react-router-dom'
 
 const CardProject = () => {
     return(
@@ -13,7 +14,7 @@ const CardProject = () => {
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                 </p>
-                <button className="button-project-card">View Project</button>
+                <Link className="button button-project-card">View Project</Link>
             </div>
         </div>
     )

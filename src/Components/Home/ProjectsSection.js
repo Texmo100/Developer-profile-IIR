@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import ProjectCards from '../Projects/ProjectCards'
+import {Link} from 'react-router-dom'
 
 class ProjectsSection extends Component{
     render(){
@@ -8,7 +9,7 @@ class ProjectsSection extends Component{
                 <div className="container container-projects">
                     <h3>Projects</h3>
                     <ProjectCards />
-                    <button className="button-all-projects">View all projects</button>
+                    <Link className="button button-all-projects" to="/projects">View all projects</Link>
                 </div>
             </main>
         )

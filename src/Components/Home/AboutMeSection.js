@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 
 
 class AboutMeSection extends Component{
@@ -9,7 +10,7 @@ class AboutMeSection extends Component{
                     <div className="image-profile"></div>
                     <div className="image-profile-desc">
                         <h2 className="f-700">About me</h2>
-                        <button className="button-about-me">View more</button>
+                        <Link className="button button-about-me" to="/aboutme">View more</Link>
                     </div>
                 </div>
             </section>
