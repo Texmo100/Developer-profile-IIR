@@ -19,7 +19,7 @@ class ContactMeSection extends Component{
                             </li>
                             <li> 
                                 <BsPhone style={{fontSize: "3rem", color: "#4097CC"}}/>
-                                <p>+52 6621194655</p>
+                                <p>6621194655</p>
                             </li>
                             <li> 
                                 <FaLinkedin style={{fontSize: "3rem", color: "#00FA9A"}}/>
