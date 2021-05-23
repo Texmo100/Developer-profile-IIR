@@ -34,7 +34,7 @@ const aboutMeData = {
             id: 1,
             name: "Hermosillo institute of tecnology",
             degree: "Informatic Engineering",
-            description: "Institute located in Sonora, Hermosillo city with engineering, finance and administration national prestige."
+            description: "Institute located in Sonora, Hermosillo city (Mexico) with engineering, finance and administration national prestige."
         }
     ],
     setSkills: {
