@@ -1,10 +1,10 @@
 const aboutMeData = {
-    profile: "I'm Isaac I.R. a software engineer junior apasionated, creatived, meticulous and in constantly improving coding skills everyday. Currently searching for a job oportunity as a software developer to improve and get real-life experience throught new coding challenges and solving any problem about software development",
+    profile: "I'm Isaac I.R. a software engineer junior apasionated, creatived, meticulous and in constantly improving coding skills everyday. Currently searching for a job oportunity as a software developer to improve and get real-life experience throught new coding challenges and solving any problem about software development.",
     projects: [
         {
             id: 1,
             name: "human resources, finance and administration System Management",
-            description: "The porpuse of this system management was to increase the number of attendance through a web platform which the final user can interact with it and improve their performance task respectively",
+            description: "The porpuse of this system management was to increase the number of attendance through a web platform which the final user can interact with it and improve their performance task respectively.",
             frameworks: [".Net Core", "Boostrap"],
             languages: ["HTML5","CSS3", "JavaScript","C#"],
             database: "Microsoft SQL Server",
@@ -22,7 +22,7 @@ const aboutMeData = {
         {
             id: 3,
             name: "MIGO",
-            description: "The porpuse of this web app is to storage your movies, series, comics and books preferences through a friendly, beautiful and easy to use layout. You as a user will be able to manage your content preference as you wish, simple and easy",
+            description: "The porpuse of this web app is to storage your movies, series, comics and books preferences through a friendly, beautiful and easy to use layout. You as a user will be able to manage your content preference as you wish, simple and easy.",
             frameworks: ["React.js", ".Net Core"],
             languages: ["HTML5","CSS3","JavaScript ES6+","C#"],
             database: "Microsoft SQL Server",
@@ -34,7 +34,7 @@ const aboutMeData = {
             id: 1,
             name: "Hermosillo institute of tecnology",
             degree: "Informatic Engineering",
-            description: "Institute located in Sonora, Hermosillo city with engineering, finance and administration national prestige"
+            description: "Institute located in Sonora, Hermosillo city with engineering, finance and administration national prestige."
         }
     ],
     setSkills: {

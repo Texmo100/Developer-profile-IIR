@@ -525,9 +525,9 @@ h4{
 .container-about-me-content{
   height: calc(100% - 10rem);
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, minmax(50rem, 100%));
-  row-gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, minmax(auto, 100%));
+  row-gap: 2rem;
   margin-top: 2rem;
 }
 .content-item{
@@ -568,4 +568,11 @@ h4{
     background-color: var(--y-color);
     border-radius: 10rem;
   }
+}
+.content-item-text{
+  font-size: 1.8rem;
+  padding: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  letter-spacing: 1px;
 }

@@ -1,6 +1,7 @@
 import React, { useState }from 'react'
 import aboutMeData from '../../Data/aboutMeData'
 import Profile from './Profile'
+import Education from './Education'
 
 const AboutMeContent = () => {
     const [profileData] = useState(aboutMeData) //Array all data
@@ -9,10 +10,8 @@ const AboutMeContent = () => {
 
     return(
         <div className="container-about-me-content">
-            <Profile />
-            <div className="content-item">
-                <p className="content-item-title">Education</p>
-            </div>
+            <Profile profile={profile}/>
+            <Education education={education}/>
             <div className="content-item">
                 <p className="content-item-title">Skills Set</p>
             </div>
