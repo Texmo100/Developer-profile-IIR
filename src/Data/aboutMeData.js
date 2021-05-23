@@ -32,7 +32,7 @@ const aboutMeData = {
     education: [
         {
             id: 1,
-            name: "Hermosillo institute of tecnology",
+            name: "Hermosillo Institute of Tecnology",
             degree: "Informatic Engineering",
             description: "Institute located in Sonora, Hermosillo city (Mexico) with engineering, finance and administration national prestige."
         }
