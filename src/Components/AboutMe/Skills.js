@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Skills = (props) => {
-    const skillRender1 = props.softSkills.map(item => <li className="skill-item">{item}</li>)
-    const skillRender2 = props.tongues.map(item => <li className="skill-item">{item}</li>)
+    const skillRender1 = props.softSkills.map(item => <li key={item.id} className="skill-item">{item.name}</li>)
+    const skillRender2 = props.tongues.map(item => <li key={item.id} className="skill-item">{item.name}</li>)
     return (
         <div className="content-item">
             <p className="content-item-title">Skills</p>
