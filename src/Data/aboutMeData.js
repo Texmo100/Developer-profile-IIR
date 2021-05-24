@@ -46,8 +46,8 @@ const aboutMeData = {
         methodologies: ["SCRUM"],
         uiDesign: ["Adobe XD"]
     },
-    softSkills: ["Skill","Skill","Skill","Skill","Skill","Skill","Skill","Skill",],
-    tongues: ["Spanish", "English - Intermediate B1"]
+    softSkills: ["Adaptability","Self-taught person","Work ethic","Problem resolution","Team work","Creativity","Motivation","Empathy",],
+    tongues: ["Spanish", "English - Intermediate B1(Linguaskill Certificate)"]
 }
 
 export default aboutMeData

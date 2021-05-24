@@ -9,13 +9,15 @@ const AboutMeContent = () => {
     const [profileData] = useState(aboutMeData) //Array all data
     const [profile] = useState(profileData.profile) //String
     const [education] = useState(profileData.education) //Array
+    const [softSkills] = useState(profileData.softSkills) //Array
+    const [tongues] = useState(profileData.tongues) //Array
 
     return(
         <div className="container-about-me-content">
             <Profile profile={profile}/>
             <Education education={education}/>
             <SkillsSet />
-            <Skills />
+            <Skills softSkills={softSkills} tongues={tongues}/>
         </div>
     )
 
