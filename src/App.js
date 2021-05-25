@@ -18,27 +18,11 @@ class App extends Component {
         <NavBar />
         {/* ---- Switch ---- */}
         <Switch>
-          
-          <Route exact path="/">
-            <Home />
-          </Route>
-
-          <Route path="/contactme">
-            <ContactMe />
-          </Route>
-
-          <Route path="/aboutme">
-            <AboutMe />
-          </Route>
-
-          <Route path="/projects">
-            <Projects />
-          </Route>
-
-          <Route path="/projectdetails">
-            <ProjectDetails />
-          </Route>
-
+          <Route exact path="/" component={Home}/>
+          <Route path="/contactme" component={ContactMe}/>
+          <Route path="/aboutme" component={AboutMe}/>
+          <Route path="/projects" component={Projects}/>
+          <Route path="/projectdetails-:id" render={() => <ProjectDetails number="150"/>}/>
         </Switch>
       </Router>
     )

@@ -14,7 +14,7 @@ const CardProject = () => {
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                 </p>
-                <Link className="button button-project-card" to="/projectdetails">View Project</Link>
+                <Link className="button button-project-card" to="/projectdetails-nameProject">View Project</Link>
             </div>
         </div>
     )
