@@ -2,7 +2,7 @@ import React from 'react'
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import { SiJavascript } from 'react-icons/si';
-import { SiAdobephonegap } from 'react-icons/si';
+import { MdPhonelink } from 'react-icons/md';
 import { SiDotNet } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 import { SiJava } from 'react-icons/si';
@@ -40,7 +40,7 @@ const SkillsSet = () => {
                         </div>
 
                         <div className="icon">
-                            <SiAdobephonegap style={{ fontSize: "4rem", color: "#2980B9" }} />
+                            <MdPhonelink style={{ fontSize: "4rem", color: "#8E44AD" }} />
                             <p className="icon-name">Responsive Design</p>
                         </div>
                     </div>
