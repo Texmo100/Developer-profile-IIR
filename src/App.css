@@ -109,21 +109,19 @@ ul{
 .navbar{
   position: fixed;
   top: 1%;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   width: 100%;
   height: 5rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
 }
 @media screen and (max-width: 980px){
   .navbar{
     top: 0;
     height: 10rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     background-color: var(--black-transparent);
   }
 }
@@ -132,7 +130,7 @@ ul{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 90%;
+  width: 80%;
 }
 @media screen and (max-width: 980px){
   .navbar-list-container{
