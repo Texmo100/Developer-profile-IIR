@@ -10,10 +10,6 @@ const CardProject = () => {
             </div>
             <div className="project-info">
                 <p className="project-title">Project title</p>
-                <p className="project-desc">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                </p>
                 <Link className="button button-project-card" to="/projectdetails-nameProject">View Project</Link>
             </div>
         </div>
