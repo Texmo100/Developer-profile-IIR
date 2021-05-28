@@ -2,6 +2,7 @@ import React from 'react'
 import GlobalHeader from '../GlobalHeader'
 import FooterSection from '../FooterSection'
 import {useLocation} from "react-router-dom";
+import ProjectDetailsContent from './ProjectDetailsContent'
 
 const ProjectDetails = () => {
     const location = useLocation()
@@ -12,7 +13,8 @@ const ProjectDetails = () => {
             <GlobalHeader image="header-image-project-details" />
             <div className="content-page">
                 <div className="container-inner-pages">
-                    <p>{state.name}</p>
+                    <h1 className="title-page title-page-about-me">{state.name}</h1>
+                    <ProjectDetailsContent project={state}/>
                 </div>
             </div>
             <FooterSection />
