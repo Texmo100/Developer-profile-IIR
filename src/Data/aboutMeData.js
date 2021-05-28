@@ -3,7 +3,7 @@ const aboutMeData = {
     projects: [
         {
             id: 1,
-            name: "System Management MVC",
+            name: "S.M. MVC",
             description: "The porpuse of this system management was to increase the number of attendance through a web platform which the final user can interact with it and improve their performance task respectively.",
             frameworks: [
                 {
@@ -64,7 +64,7 @@ const aboutMeData = {
         },
         {
             id: 2,
-            name: "Haat CAIS",
+            name: "Haat",
             description: "The porpuse of this mobile app was to increase product sells about this cultural institution who was charged to sell and manage all this product, art etc.",
             frameworks: [
                 {
@@ -286,7 +286,7 @@ const aboutMeData = {
         },
         {
             id: 2,
-            name: "English - Intermediate B1 (Linguaskill Certificate)"
+            name: "English - Intermediate"
         },
     ]
 }

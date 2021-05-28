@@ -7,7 +7,7 @@ class MainImageSection extends Component{
             <header className="main-image">
                 <div className="image-layer">
                     <div className="container container-main-image">
-                        <h1 className="f-400">Hey there, i'm Isaac I.R. a Frontend Developer</h1>
+                        <h1 className="f-400">Hey there, i'm Isaac I.R. a Software Developer</h1>
                         <Link className="button button-main-image" to="/contactme">Let's talk</Link>
                     </div>
                 </div>
