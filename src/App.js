@@ -22,7 +22,7 @@ class App extends Component {
           <Route path="/contactme" component={ContactMe}/>
           <Route path="/aboutme" component={AboutMe}/>
           <Route path="/projects" component={Projects}/>
-          <Route path="/projectdetails-:id" render={() => <ProjectDetails number="150"/>}/>
+          <Route path="/projectdetails-:id" component={ProjectDetails}/>
         </Switch>
       </Router>
     )

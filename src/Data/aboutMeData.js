@@ -3,7 +3,7 @@ const aboutMeData = {
     projects: [
         {
             id: 1,
-            name: "human resources, finance and administration System Management",
+            name: "System Management MVC",
             description: "The porpuse of this system management was to increase the number of attendance through a web platform which the final user can interact with it and improve their performance task respectively.",
             frameworks: [
                 {
