@@ -440,7 +440,7 @@ h4{
   height: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 15rem minmax(70vh, 100%) 15rem;
+  grid-template-rows: 15rem minmax(75vh, 100%) 15rem;
 }
 .header-image, .content-page, .footer{
   grid-column: 1 / -1;
