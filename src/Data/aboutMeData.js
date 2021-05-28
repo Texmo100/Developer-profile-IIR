@@ -8,32 +8,58 @@ const aboutMeData = {
             frameworks: [
                 {
                     id: 1,
-                    name: ".Net Core"
+                    name: ".Net Core",
+                    iconName: "SiDotNet",
+                    fontSize: "4rem",
+                    color: "#2980B9"
                 },
                 {
                     id: 2,
-                    name: "Boostrap"
+                    name: "Boostrap",
+                    iconName: "SiBootstrap",
+                    fontSize: "4rem",
+                    color: "#8E44AD"
                 },
             ],
             languages: [
                 {
                     id: 1,
-                    name: "HTML5"
+                    name: "HTML5",
+                    iconName: "AiFillHtml5",
+                    fontSize: "4rem",
+                    color: "#E67E22"
                 },
                 {
                     id: 2,
-                    name: "CSS3"
+                    name: "CSS3",
+                    iconName: "DiCss3",
+                    fontSize: "4rem",
+                    color: "#2980B9"
                 },
                 {
                     id: 3,
-                    name: "JavaScript"
+                    name: "JavaScript",
+                    iconName: "SiJavascript",
+                    fontSize: "4rem",
+                    color: "#F1C40F"
                 },
                 {
                     id: 4,
-                    name: "C#"
+                    name: "C#",
+                    iconName: "SiCsharp",
+                    fontSize: "4rem",
+                    color: "#8E44AD"
                 },
             ],
-            database: "Microsoft SQL Server",
+            database: [
+                {
+                    id: 1,
+                    name: "Microsoft SQL Server",
+                    iconName: "SiMicrosoftsqlserver",
+                    fontSize: "4rem",
+                    color: "#2980B9"
+                },
+            ],
             sourceCode: "private"
         },
         {
@@ -43,16 +69,30 @@ const aboutMeData = {
             frameworks: [
                 {
                     id: 1,
-                    name: "React Native"
+                    name: "React Native",
+                    iconName: "FaReact",
+                    fontSize: "4rem",
+                    color: "#7D3C98"
                 },
             ],
             languages: [
                 {
                     id: 1,
-                    name: "JavaScript"
+                    name: "JavaScript",
+                    iconName: "SiJavascript",
+                    fontSize: "4rem",
+                    color: "#F1C40F"
                 },
             ],
-            database: "Firebase",
+            database: [
+                {
+                    id: 1,
+                    name: "Firebase",
+                    iconName: "SiFirebase",
+                    fontSize: "4rem",
+                    color: "#A04000"
+                },
+            ],
             sourceCode: "private"
         },
         {
@@ -62,32 +102,58 @@ const aboutMeData = {
             frameworks: [
                 {
                     id: 1,
-                    name: "React.js"
+                    name: "React.js",
+                    iconName: "FaReact",
+                    fontSize: "4rem",
+                    color: "#29B5B9"
                 },
                 {
                     id: 2,
-                    name: ".Net Core"
+                    name: ".Net Core",
+                    iconName: "SiDotNet",
+                    fontSize: "4rem",
+                    color: "#2980B9"
                 },
             ],
             languages: [
                 {
                     id: 1,
-                    name: "HTML5"
+                    name: "HTML5",
+                    iconName: "AiFillHtml5",
+                    fontSize: "4rem",
+                    color: "#E67E22"
                 },
                 {
                     id: 2,
-                    name: "CSS3"
+                    name: "CSS3",
+                    iconName: "DiCss3",
+                    fontSize: "4rem",
+                    color: "#2980B9"
                 },
                 {
                     id: 3,
-                    name: "JavaScript ES6+"
+                    name: "JavaScript",
+                    iconName: "SiJavascript",
+                    fontSize: "4rem",
+                    color: "#F1C40F"
                 },
                 {
                     id: 4,
-                    name: "C#"
+                    name: "C#",
+                    iconName: "SiCsharp",
+                    fontSize: "4rem",
+                    color: "#8E44AD"
                 },
             ],
-            database: "Microsoft SQL Server",
+            database: [
+                {
+                    id: 1,
+                    name: "Microsoft SQL Server",
+                    iconName: "SiMicrosoftsqlserver",
+                    fontSize: "4rem",
+                    color: "#2980B9"
+                },
+            ],
             sourceCode: "public soon"
         },
     ],
