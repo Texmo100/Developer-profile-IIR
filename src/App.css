@@ -292,6 +292,11 @@ h3{
   font-size: 4rem;
   font-weight: 700;
 }
+@media screen and (max-width: 980px){
+  .project-title{
+    font-size: 3rem;
+  }
+}
 .button-project-card{
   width: 20rem;
   height: 4rem;
