@@ -4,7 +4,7 @@ const aboutMeData = {
         {
             id: 1,
             name: "S.M. MVC",
-            description: "The porpuse of this system management was to increase the number of attendance through a web platform which the final user can interact with it and improve their performance task respectively.",
+            description: "MVC Management system to improve human-resource, administration and finance process through an easy and modern web-app",
             frameworks: [
                 {
                     id: 1,
@@ -65,7 +65,7 @@ const aboutMeData = {
         {
             id: 2,
             name: "Haat",
-            description: "The porpuse of this mobile app was to increase product sells about this cultural institution who was charged to sell and manage all this product, art etc.",
+            description: "Increase cultural-product sales through a mobile app oriented in QR Scanning",
             frameworks: [
                 {
                     id: 1,
@@ -160,7 +160,7 @@ const aboutMeData = {
     education: [
         {
             id: 1,
-            name: "Hermosillo Institute of Tecnology",
+            name: "Hermosillo Institute of Technology",
             degree: "Informatic Engineering",
             description: "Institute located in Sonora, Hermosillo city (Mexico) with engineering, finance and administration national prestige."
         }

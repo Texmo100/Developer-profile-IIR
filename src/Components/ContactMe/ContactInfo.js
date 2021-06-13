@@ -19,7 +19,7 @@ const ContactInfo = () => {
                 </li>
                 <li className="contact-item">
                     <FaLinkedin style={{ fontSize: "3rem", color: "#00FA9A" }} />
-                    <p>Isaac Iñiguez Ruiz</p>
+                    <p>Isaac I.R.</p>
                 </li>
                 <li className="contact-item">
                     <AiFillGithub style={{ fontSize: "3rem", color: "aqua" }} />
