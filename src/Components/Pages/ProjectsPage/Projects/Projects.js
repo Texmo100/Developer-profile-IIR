@@ -1,8 +1,8 @@
-import React, { useState} from 'react'
-import GlobalHeader from '../GlobalHeader'
-import CardProject from './CardProject'
-import FooterSection from '../FooterSection'
-import aboutMeData from '../../Data/aboutMeData'
+import React, { useState} from 'react';
+import GlobalHeader from '../../../UI/GlobalHeader';
+import CardProject from '../Sections/CardProject';
+import FooterSection from '../../../UI/FooterSection';
+import aboutMeData from '../../../../data/aboutMeData';
 
 const Projects = () => {
     const [data] = useState(aboutMeData)
@@ -25,4 +25,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Projects;

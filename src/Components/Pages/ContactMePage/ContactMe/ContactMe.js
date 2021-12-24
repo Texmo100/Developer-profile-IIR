@@ -1,7 +1,7 @@
-import React from 'react'
-import GlobalHeader from '../GlobalHeader'
-import ContactInfo from './ContactInfo'
-import FooterSection from '../FooterSection'
+import React from 'react';
+import GlobalHeader from '../../../UI/GlobalHeader';
+import ContactInfo from '../Sections/ContactInfo';
+import FooterSection from '../../../UI/FooterSection';
 
 
 const ContactMe = () => {
@@ -19,4 +19,4 @@ const ContactMe = () => {
     )
 }
 
-export default ContactMe
+export default ContactMe;

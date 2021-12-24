@@ -1,9 +1,9 @@
-import React, { useState }from 'react'
-import aboutMeData from '../../Data/aboutMeData'
-import Profile from './Profile'
-import Education from './Education'
-import SkillsSet from './SkillsSet'
-import Skills from './Skills'
+import React, { useState }from 'react';
+import aboutMeData from '../../../../data/aboutMeData';
+import Profile from './Profile';
+import Education from './Education';
+import SkillsSet from './SkillsSet';
+import Skills from './Skills';
 
 const AboutMeContent = () => {
     const [profileData] = useState(aboutMeData) //Array all data
@@ -23,4 +23,4 @@ const AboutMeContent = () => {
 
 }
 
-export default AboutMeContent
+export default AboutMeContent;

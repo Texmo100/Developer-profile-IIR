@@ -1,6 +1,6 @@
-import React, { useState} from 'react'
-import CardProject from './CardProject'
-import aboutMeData from '../../Data/aboutMeData'
+import React, { useState} from 'react';
+import CardProject from './CardProject';
+import aboutMeData from '../../../../data/aboutMeData';
 
 const ProjectCards = () => {
     const [data] = useState(aboutMeData)
@@ -15,4 +15,4 @@ const ProjectCards = () => {
     )
 }
 
-export default ProjectCards
+export default ProjectCards;

@@ -1,6 +1,6 @@
-import React from 'react'
-import GlobalHeader from '../GlobalHeader'
-import FooterSection from '../FooterSection'
+import React from 'react';
+import GlobalHeader from '../../../UI/GlobalHeader';
+import FooterSection from '../../../UI/FooterSection';
 import {useLocation} from "react-router-dom";
 import ProjectDetailsContent from './ProjectDetailsContent'
 
@@ -22,4 +22,4 @@ const ProjectDetails = () => {
     )
 }
 
-export default ProjectDetails
+export default ProjectDetails;

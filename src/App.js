@@ -1,22 +1,20 @@
-import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import NavBar from './Components/Navbar'
-import Home from './Components/Home/Home'
-import ContactMe from './Components/ContactMe/ContactMe'
-import AboutMe from './Components/AboutMe/AboutMe'
-import Projects from './Components/Projects/Projects'
-import ProjectDetails from './Components/Projects/ProjectDetails'
-import ScrollToTop from './Components/ScrollToTop'
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import NavBar from './components/UI/Navbar';
+import Home from './components/Pages/HomePage/Home/Home';
+import ContactMe from './components/Pages/ContactMePage/ContactMe/ContactMe';
+import AboutMe from './components/Pages/AboutMePage/AboutMe/AboutMe';
+import Projects from './components/Pages/ProjectsPage/Projects/Projects';
+import ProjectDetails from './components/Pages/ProjectsPage/Sections/ProjectDetails';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
       <Router>
         <ScrollToTop />
-        {/* ---- Navbar ---- */}
         <NavBar />
-        {/* ---- Switch ---- */}
+
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/contactme" component={ContactMe}/>
@@ -25,8 +23,7 @@ class App extends Component {
           <Route path="/projectdetails-:id" component={ProjectDetails}/>
         </Switch>
       </Router>
-    )
-  }
+    );
 }
 
 export default App;

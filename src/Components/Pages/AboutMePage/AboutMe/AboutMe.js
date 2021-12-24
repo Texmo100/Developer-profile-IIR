@@ -1,7 +1,7 @@
-import React from 'react'
-import GlobalHeader from '../GlobalHeader'
-import FooterSection from '../FooterSection'
-import AboutMeContent from './AboutMeContent'
+import React from 'react';
+import GlobalHeader from '../../../UI/GlobalHeader';
+import FooterSection from '../../../UI/FooterSection';
+import AboutMeContent from '../Sections/AboutMeContent';
 
 const AboutMe = () => {
   return (
@@ -18,4 +18,4 @@ const AboutMe = () => {
   )
 }
 
-export default AboutMe
+export default AboutMe;

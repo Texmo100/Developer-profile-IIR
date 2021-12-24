@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
-import ProjectCards from '../Projects/ProjectCards'
-import {Link} from 'react-router-dom'
+import React, {Component} from 'react';
+import ProjectCards from '../../ProjectsPage/Sections/ProjectCards';
+import {Link} from 'react-router-dom';
 
 class ProjectsSection extends Component{
     render(){
@@ -16,4 +16,4 @@ class ProjectsSection extends Component{
     }
 }
 
-export default ProjectsSection
+export default ProjectsSection;
