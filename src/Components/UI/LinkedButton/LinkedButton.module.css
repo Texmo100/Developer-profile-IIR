@@ -22,3 +22,20 @@
     background-color: var(--black-transparent);
     border: 1px solid var(--white);
 }
+
+.about-me__content__button{
+    width: 20rem;
+    height: 4rem;
+    background-color: var(--main-color-1);
+    color: var(--white);
+    margin-top: 2rem;
+    padding: 1rem;
+    transition: all 500ms ease;
+}
+
+.about-me__content__button:hover{
+    cursor: pointer;
+    background-color: var(--white);
+    border: 1px solid var(--main-color-1);
+    color: var(--main-color-1);
+}

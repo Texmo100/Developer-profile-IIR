@@ -1,6 +1,6 @@
 import React from 'react';
 import MainImageSection from '../Sections/MainImageSection/MainImageSection';
-import AboutMeSection from '../Sections/AboutMeSection';
+import AboutMeSection from '../Sections/AboutMeSection/AboutMeSection';
 import ProjectsSection from '../Sections/ProjectsSection';
 import ContactMeSection from '../Sections/ContactMeSection';
 import FooterSection from '../../../UI/FooterSection';
