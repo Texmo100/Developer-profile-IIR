@@ -1,0 +1,24 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.main-image__content__button{
+    width: 20rem;
+    height: 4rem;
+    background-color: var(--white-transparent);
+    color: var(--white);
+    margin-top: 3rem;
+    padding: 1rem;
+    transition: all 500ms ease;
+}
+
+.main-image__content__button:hover{
+    cursor: pointer;
+    background-color: var(--black-transparent);
+    border: 1px solid var(--white);
+}

@@ -1,0 +1,13 @@
+.wrapper-home{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 100vh) 15rem;
+    row-gap: 2rem;
+}
+
+@media screen and (max-width: 980px){
+    .wrapper-home{
+        grid-template-rows: 100vh 100vh auto 100vh 15rem;
+    }
+}

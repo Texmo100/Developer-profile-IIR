@@ -1,0 +1,45 @@
+.main-image{
+    grid-column: 1 / -1;
+    background-image: url('../../../../../assets/img-bar.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-image__layer{
+    background: var(--black-transparent);
+    width: 100%;
+    height: 100vh;
+    color: var(--white);
+}
+
+.delimiter{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.main-image__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-image__content > h1{
+    font-weight: 400;
+    font-size: 7rem;
+    width: 70rem;
+}
+
+@media screen and (max-width: 980px){
+    .main-image__content{
+        align-items: center;
+    }
+
+    .main-image__content > h1{
+        font-size: 5rem;
+        width: initial;
+        text-align: center;
+    }
+}
