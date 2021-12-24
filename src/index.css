@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    height: 100vh;
+    height: 100%;
     margin: 0;
     font-size: 1.2rem;
     font-family: 'PT Sans', sans-serif;
