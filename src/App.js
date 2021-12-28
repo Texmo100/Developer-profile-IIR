@@ -4,8 +4,8 @@ import NavBar from './components/UI/Navbar/Navbar';
 import Home from './components/Pages/HomePage/Home/Home';
 import ContactMe from './components/Pages/ContactMePage/ContactMe/ContactMe';
 import AboutMe from './components/Pages/AboutMePage/AboutMe/AboutMe';
-import Projects from './components/Pages/ProjectsPage/Projects/Projects';
-import ProjectDetails from './components/Pages/ProjectsPage/Sections/ProjectDetails';
+import Projects from './components/Pages/ProjectsPage/Projects';
+import ProjectDetails from './components/Pages/ProjectDetailsPage/ProjectDetails';
 import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 

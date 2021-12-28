@@ -1,6 +1,6 @@
 import React from 'react';
 import GlobalHeader from '../../../UI/GlobalHeader';
-import FooterSection from '../../../UI/FooterSection';
+import FooterSection from '../../../UI/FooterSection/FooterSection';
 import AboutMeContent from '../Sections/AboutMeContent';
 
 const AboutMe = () => {

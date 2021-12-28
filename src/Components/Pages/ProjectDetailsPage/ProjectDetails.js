@@ -1,6 +1,6 @@
 import React from 'react';
-import GlobalHeader from '../../../UI/GlobalHeader';
-import FooterSection from '../../../UI/FooterSection';
+import GlobalHeader from '../../UI/GlobalHeader';
+import FooterSection from '../../UI/FooterSection/FooterSection';
 import {useLocation} from "react-router-dom";
 import ProjectDetailsContent from './ProjectDetailsContent'
 

@@ -7,7 +7,7 @@ const FooterSection = () => {
             <FaReact className="react-icon"/>
             <p>created with React.js</p>
         </footer>
-    )
+    );
 }
 
-export default FooterSection
+export default FooterSection;

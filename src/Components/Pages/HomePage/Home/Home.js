@@ -3,7 +3,7 @@ import MainImageSection from '../Sections/MainImageSection/MainImageSection';
 import AboutMeSection from '../Sections/AboutMeSection/AboutMeSection';
 import ProjectsSection from '../Sections/ProjectsSection/ProjectsSection';
 import ContactMeSection from '../Sections/ContactMeSection/ContactMeSection';
-import FooterSection from '../../../UI/FooterSection';
+import FooterSection from '../../../UI/FooterSection/FooterSection';
 import styles from './Home.module.css';
 
 const Home = () => {

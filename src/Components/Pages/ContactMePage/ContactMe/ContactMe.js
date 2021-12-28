@@ -1,7 +1,7 @@
 import React from 'react';
 import GlobalHeader from '../../../UI/GlobalHeader';
 import ContactInfo from '../Sections/ContactInfo';
-import FooterSection from '../../../UI/FooterSection';
+import FooterSection from '../../../UI/FooterSection/FooterSection';
 
 
 const ContactMe = () => {
