@@ -45,76 +45,8 @@ ul{
 }
 /* Rest of the CSS */
 
-.contact-me, .footer{
+.footer{
   grid-column: 1 / -1;
-}
-/*---- Contact Me styles ----*/
-.contact-me{
-  background-color: var(--white);
-  padding: 1rem;
-}
-.container-contact-me{
-  display: flex;
-  color: var(--main-color-2);
-  border-radius: 1rem;
-  padding: 0;
-}
-.contact-me-desc{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-}
-@media screen and (max-width: 980px){
-  .container-contact-me{
-    flex-direction: column;
-    border: 1px solid var(--color-line);
-  }
-  .contact-me-desc{
-    width: 100%;
-    height: 50%;
-  }
-}
-h4{
-  font-size: 5rem;
-  text-align: center;
-}
-@media screen and (max-width: 980px){
-  h4{
-    font-size: 4.5rem;
-  }
-}
-.contact-me-items{
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  margin-top: 2rem;
-}
-.contact-me-items > li{
-  display: flex;
-  align-items: center;
-  font-size: 1.6rem;
-}
-.contact-me-items > li > p{
-  margin: 1rem 0;
-  margin-left: 1rem;
-}
-.image-contact-me{
-  background-image: url('./assets//profile-02.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 50%;
-  height: 100%;
-  border-radius: 1rem;
-}
-@media screen and (max-width: 980px){
-  .image-contact-me{
-    width: 100%;
-    height: 50%;
-  }
 }
 /*---- Footer styles ----*/
 .footer{

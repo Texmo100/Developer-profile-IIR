@@ -10,6 +10,12 @@
     padding: 1rem;
 }
 
+@media screen and (max-width: 980px){
+    .delimiter{
+      width: 95%;
+    }
+}
+
 .about-me__content{
     display: flex;
     border-radius: 1rem;

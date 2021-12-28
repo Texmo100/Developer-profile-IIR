@@ -20,6 +20,12 @@
     padding: 1rem;
 }
 
+@media screen and (max-width: 980px){
+    .delimiter{
+      width: 95%;
+    }
+}
+
 .main-image__content{
     display: flex;
     flex-direction: column;

@@ -11,6 +11,12 @@
     padding: 1rem;
 }
 
+@media screen and (max-width: 980px){
+    .delimiter{
+      width: 95%;
+    }
+}
+
 .projects__content{
     display: flex;
     flex-direction: column;
