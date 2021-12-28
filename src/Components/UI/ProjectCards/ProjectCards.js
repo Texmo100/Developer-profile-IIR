@@ -1,6 +1,6 @@
 import React from 'react';
 import CardProject from '../CardProject/CardProject';
-import aboutMeData from '../../data/aboutMeData';
+import aboutMeData from '../../../data/aboutMeData';
 import styles from './ProjectCards.module.css';
 
 const ProjectCards = () => {

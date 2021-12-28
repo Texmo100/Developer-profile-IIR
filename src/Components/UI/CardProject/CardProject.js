@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCode } from 'react-icons/fa';
-import LinkedButton from '../UI/LinkedButton/LinkedButton';
+import LinkedButton from '../LinkedButton/LinkedButton';
 import styles from './CardProject.module.css';
 
 const CardProject = props => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCards from '../../../../ProjectCards/ProjectCards';
+import ProjectCards from '../../../../UI/ProjectCards/ProjectCards';
 import LinkedButton from '../../../../UI/LinkedButton/LinkedButton';
 import styles from './ProjectsSection.module.css';
 
