@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import GlobalHeader from '../../../UI/GlobalHeader';
-import CardProject from '../Sections/CardProject';
+import CardProject from '../../../CardProject/CardProject';
 import FooterSection from '../../../UI/FooterSection';
 import aboutMeData from '../../../../data/aboutMeData';
 

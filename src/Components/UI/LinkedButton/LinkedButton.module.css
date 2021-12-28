@@ -39,3 +39,48 @@
     border: 1px solid var(--main-color-1);
     color: var(--main-color-1);
 }
+
+.button-all-projects{
+    align-self: center;
+    width: 25%;
+    height: 5rem;
+    background-color: var(--main-color-1);
+    color: var(--white);
+    border-radius: 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: 1px solid transparent;
+    transition: all 500ms ease;
+}
+
+@media screen and (max-width: 980px){
+    .button-all-projects{
+        width: 70%;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+}
+
+.button-all-projects:hover{
+    cursor: pointer;
+    background-color: var(--white);
+    border: 1px solid var(--main-color-1);
+    color: var(--main-color-1);
+}
+
+.button-project-card{
+    width: 20rem;
+    height: 4rem;
+    background-color: var(--y-violet);
+    color: var(--white);
+    margin-top: 2rem;
+    padding: 1rem;
+    transition: all 500ms ease;
+  }
+  
+  .button-project-card:hover{
+    cursor: pointer;
+    background-color: var(--white);
+    border: 1px solid var(--y-violet);
+    color: var(--y-violet);
+  }

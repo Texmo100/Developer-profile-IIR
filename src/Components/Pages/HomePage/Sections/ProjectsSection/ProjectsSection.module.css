@@ -1,0 +1,28 @@
+.projects{
+    grid-column: 1 / -1;
+    background-color: var(--white);
+    color: var(--main-color-2);
+}
+
+.delimiter{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.projects__content{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 5.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px){
+    h3{
+        font-size: 4.5rem;
+    }
+}
