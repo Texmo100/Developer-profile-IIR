@@ -24,17 +24,6 @@ ul{
   margin: 0;
   padding: 0;
 }
-.container{
-  width: 90%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 1rem;
-}
-@media screen and (max-width: 980px){
-  .container{
-    width: 95%;
-  }
-}
 .button{
   display: flex;
   justify-content: center;
@@ -42,30 +31,6 @@ ul{
   border-radius: 10rem;
   text-decoration: none;
   font-size: 1.8rem;
-}
-/* Rest of the CSS */
-
-.footer{
-  grid-column: 1 / -1;
-}
-/*---- Footer styles ----*/
-.footer{
-  background-color: var(--color-footer);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--white);
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-.react-icon{
-  font-size: 5rem;
-  color: var(--y-color);
-}
-.footer > p{
-  font-size: 2rem;
-  margin-top: 0.5rem;
 }
 /*---- General inner pages styles ----*/
 .wrapper-inner-pages{

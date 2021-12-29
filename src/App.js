@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Router>
         <ScrollToTop />
-        {/* <NavBar /> */}
+        <NavBar />
 
         <Switch>
           <Route exact path="/" component={Home} />

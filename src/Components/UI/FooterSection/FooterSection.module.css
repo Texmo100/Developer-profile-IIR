@@ -1,0 +1,21 @@
+.footer{
+    grid-column: 1 / -1;
+    background-color: var(--color-footer);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer > p{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.react-icon{
+    font-size: 5rem;
+    color: var(--y-color);
+}
