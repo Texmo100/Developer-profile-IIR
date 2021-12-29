@@ -1,0 +1,8 @@
+.about-me-content{
+    height: calc(100% - 10rem);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, minmax(auto, 100%));
+    row-gap: 2rem;
+    margin-top: 2rem;
+}

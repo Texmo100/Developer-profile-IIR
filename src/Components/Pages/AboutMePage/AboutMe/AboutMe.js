@@ -1,6 +1,6 @@
 import React from 'react';
 import PagesWrapper from '../../../UI/PagesWrapper/PagesWrapper';
-import AboutMeContent from '../Sections/AboutMeContent';
+import AboutMeContent from '../AboutMeContent/AboutMeContent';
 
 const AboutMe = () => {
   return (
