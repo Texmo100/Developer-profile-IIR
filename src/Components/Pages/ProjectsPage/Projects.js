@@ -1,27 +1,19 @@
-import React, { useState} from 'react';
-import GlobalHeader from '../../UI/GlobalHeader';
+import React from 'react';
+import PagesWrapper from '../../UI/PagesWrapper/PagesWrapper';
 import CardProject from '../../UI/CardProject/CardProject';
-import FooterSection from '../../UI/FooterSection/FooterSection';
 import aboutMeData from '../../../data/aboutMeData';
 
 const Projects = () => {
-    const [data] = useState(aboutMeData)
-    const [projects] = useState(data.projects)
+    const { projects } = aboutMeData;
 
-    const projectsRenderCard = projects.map(item => <CardProject key={item.id} project={item}/>)
+    const projectsRenderCard = projects.map(item => <CardProject key={item.id} project={item} />)
+
     return (
-        <div className="wrapper-inner-pages">
-            <GlobalHeader image="header-image-projects"/>
-            <div className="content-page">
-                <div className="container-inner-pages">
-                    <h1 className="title-page title-page-projects">Projects</h1>
-                    <div className="container-cards-projects-page">
-                        {projectsRenderCard}
-                    </div>
-                </div>
+        <PagesWrapper classNameTitle="center" title="Projects">
+            <div className="container-cards-projects-page">
+                {projectsRenderCard}
             </div>
-            <FooterSection />
-        </div>
+        </PagesWrapper>
     )
 }
 
