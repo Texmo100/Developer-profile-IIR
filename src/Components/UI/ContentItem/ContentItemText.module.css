@@ -1,0 +1,10 @@
+.content-item__text{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding: 0 1rem;
+    text-align: justify;
+}
+
+.content-item__text--bold{
+    font-weight: bold;
+}

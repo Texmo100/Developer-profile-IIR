@@ -25,52 +25,6 @@ ul{
   padding: 0;
 }
 /*---- About me page styles ----*/
-.content-item{
-  grid-column: 1 / -1;
-  padding: 1rem;
-}
-.content-item-title{
-  font-size: 3rem;
-  font-weight: 300;
-  padding-left: 1rem;
-  margin-bottom: 2rem;
-  position: relative;
-}
-.content-item-title::before{
-  content: '';
-  display: block;
-  width: 0.2rem;
-  height: 100%;
-  background-color: var(--y-color);
-  border-radius: 10rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-@media screen and (max-width: 980px){
-  .content-item-title{
-    text-align: center;
-    padding-left: 0;
-    position: initial;
-  }
-  .content-item-title::before{
-    display: none;
-  }
-  .content-item-title::after{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 0.2rem;
-    background-color: var(--y-color);
-    border-radius: 10rem;
-  }
-}
-.content-item-text{
-  font-size: 1.8rem;
-  line-height: 1.5;
-  padding: 0 1rem;
-  text-align: justify;
-}
 .content-item-box-wrapper{
   display: flex;
   flex-wrap: wrap;

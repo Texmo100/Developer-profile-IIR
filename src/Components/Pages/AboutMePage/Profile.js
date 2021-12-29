@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import ContentItem from '../../UI/ContentItem/ContentItem';
+import ContentItemText from '../../UI/ContentItem/ContentItemText';
 
-const Profile = (props) => {
+const Profile = props => {
     return (
-        <div className="content-item">
-            <p className="content-item-title">Profile</p>
-            <p className="content-item-text">{props.profile}</p>
-        </div>
-    )
+        <ContentItem title="Profile">
+            <ContentItemText>{props.profile}</ContentItemText>
+        </ContentItem>
+    );
 }
 
-export default Profile
+export default Profile;

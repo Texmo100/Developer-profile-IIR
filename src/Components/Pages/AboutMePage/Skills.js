@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
+import ContentItem from '../../UI/ContentItem/ContentItem';
 
-const Skills = (props) => {
+const Skills = props => {
+    
     const skillRender1 = props.softSkills.map(item => <li key={item.id} className="skill-item">{item.name}</li>)
-    const skillRender2 = props.tongues.map(item => <li key={item.id} className="skill-item">{item.name}</li>)
-    return (
-        <div className="content-item">
-            <p className="content-item-title">Skills</p>
-            <div className="content-item-box-wrapper">
 
+    const skillRender2 = props.tongues.map(item => <li key={item.id} className="skill-item">{item.name}</li>)
+
+    return (
+        <ContentItem title='Skills'>
+            <div className="content-item-box-wrapper">
                 <div className="box-style left-box">
                     <p className="box-title-skills">Soft Skills</p>
                     <ul className="skills-container">
@@ -22,8 +24,8 @@ const Skills = (props) => {
                     </ul>
                 </div>
             </div>
-        </div>
-    )
+        </ContentItem>
+    );
 }
 
-export default Skills
+export default Skills;
