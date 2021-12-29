@@ -1,5 +1,6 @@
 import React from 'react';
 import ContentItem from '../../UI/ContentItem/ContentItem';
+import ContentItemBoxGroup from '../../UI/ContentItem/ContentItemBoxGroup';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import { SiJavascript } from 'react-icons/si';
@@ -19,8 +20,7 @@ import { SiAdobexd } from 'react-icons/si';
 const SkillsSet = () => {
     return (
         <ContentItem title='Skills Set'>
-            <div className="content-item-box-wrapper">
-
+            <ContentItemBoxGroup>
                 <div className="box-style left-box">
                     <p className="box-title-skills-set">Web Fundamentals</p>
                     <div className="icon-container">
@@ -139,7 +139,7 @@ const SkillsSet = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </ContentItemBoxGroup>
         </ContentItem>
     )
 }

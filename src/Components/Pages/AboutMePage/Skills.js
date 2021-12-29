@@ -1,5 +1,6 @@
 import React from 'react';
 import ContentItem from '../../UI/ContentItem/ContentItem';
+import ContentItemBoxGroup from '../../UI/ContentItem/ContentItemBoxGroup';
 
 const Skills = props => {
     
@@ -9,7 +10,7 @@ const Skills = props => {
 
     return (
         <ContentItem title='Skills'>
-            <div className="content-item-box-wrapper">
+            <ContentItemBoxGroup>
                 <div className="box-style left-box">
                     <p className="box-title-skills">Soft Skills</p>
                     <ul className="skills-container">
@@ -23,7 +24,7 @@ const Skills = props => {
                         {skillRender2}
                     </ul>
                 </div>
-            </div>
+            </ContentItemBoxGroup>
         </ContentItem>
     );
 }
