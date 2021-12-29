@@ -4,34 +4,35 @@ import { BsPhone } from 'react-icons/bs';
 import { FaLinkedin } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaGitlab } from 'react-icons/fa';
+import styles from './ContactInfo.module.css';
 
 const ContactInfo = () => {
     return (
-        <div className="container-contact-info">
-            <ul className="contact-info">
-                <li className="contact-item">
+        <div className={styles["contact-info"]}>
+            <ul className={styles["contact-info-content"]}>
+                <li className={styles["contact-info-content__item"]}>
                     <MdMail style={{ fontSize: "3rem", color: "#8B008B" }} />
                     <p>ir.isaac1000@gmail.com</p>
                 </li>
-                <li className="contact-item">
+                <li className={styles["contact-info-content__item"]}>
                     <BsPhone style={{ fontSize: "3rem", color: "#4097CC" }} />
                     <p>6621194655</p>
                 </li>
-                <li className="contact-item">
+                <li className={styles["contact-info-content__item"]}>
                     <FaLinkedin style={{ fontSize: "3rem", color: "#00FA9A" }} />
                     <p>Isaac I.R.</p>
                 </li>
-                <li className="contact-item">
+                <li className={styles["contact-info-content__item"]}>
                     <AiFillGithub style={{ fontSize: "3rem", color: "aqua" }} />
                     <p>Texmo100</p>
                 </li>
-                <li className="contact-item">
+                <li className={styles["contact-info-content__item"]}>
                     <FaGitlab style={{ fontSize: "3rem", color: "#A0522D" }} />
                     <p>Texmo100</p>
                 </li>
             </ul>
         </div>
-    )
+    );
 }
 
-export default ContactInfo
+export default ContactInfo;

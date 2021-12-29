@@ -1,0 +1,23 @@
+.contact-info{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info-content{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 5rem;
+}
+
+.contact-info-content__item{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.contact-info-content__item > p{
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}

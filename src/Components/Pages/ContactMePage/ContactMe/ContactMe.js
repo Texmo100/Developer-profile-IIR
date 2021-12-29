@@ -1,6 +1,6 @@
 import React from 'react';
 import PagesWrapper from '../../../UI/PagesWrapper/PagesWrapper';
-import ContactInfo from '../Sections/ContactInfo';
+import ContactInfo from '../ContactInfo/ContactInfo';
 
 
 const ContactMe = () => {
