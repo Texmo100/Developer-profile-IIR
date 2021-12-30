@@ -27,3 +27,14 @@
     font-size: 1.4rem;
     margin-top: 0.5rem;
 }
+
+.source-code {
+    font-size: 1.6rem;
+}
+
+
+@media screen and (max-width: 980px) {
+    .source-code {
+        text-align: center;
+    }
+}

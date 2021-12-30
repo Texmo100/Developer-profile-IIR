@@ -8,7 +8,7 @@ const ProjectsSection = () => {
         <main className={styles["projects"]}>
             <div className={`${styles['delimiter']} ${styles['projects__content']}`}>
                 <h3>Projects</h3>
-                <ProjectCards />
+                <ProjectCards classNameProjectCards="short"/>
                 <LinkedButton className="button-all-projects" to="/projects">View all projects</LinkedButton>
             </div>
         </main>

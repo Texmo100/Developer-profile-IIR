@@ -135,8 +135,8 @@ const ProjectDetailsContent = props => {
     })
 
     //Source Code Render
-    const sourceCodeRender = sourceCode === "private" ? <p className="content-item-text source-code" style={{color: "red"}}>- {sourceCode} -</p> : 
-    <p className="content-item-text source-code" style={{color: "#2980B9"}}>- {sourceCode} -</p>
+    const sourceCodeRender = sourceCode === "private" ? <p className={styles["source-code"]} style={{color: "red"}}>- {sourceCode} -</p> : 
+    <p className={styles["source-code"]} style={{color: "#2980B9"}}>- {sourceCode} -</p>
 
     return (
         <div className={styles["project-details-content"]}>
