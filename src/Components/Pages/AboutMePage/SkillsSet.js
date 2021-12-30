@@ -1,6 +1,7 @@
 import React from 'react';
 import ContentItem from '../../UI/ContentItem/ContentItem';
 import ContentItemBoxGroup from '../../UI/ContentItem/ContentItemBoxGroup';
+import ContentItemBox from '../../UI/ContentItem/ContentItemBox';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import { SiJavascript } from 'react-icons/si';
@@ -21,8 +22,7 @@ const SkillsSet = () => {
     return (
         <ContentItem title='Skills Set'>
             <ContentItemBoxGroup>
-                <div className="box-style left-box">
-                    <p className="box-title-skills-set">Web Fundamentals</p>
+                <ContentItemBox classNameBox="small" classNameTitle="style-01" title="Web Fundamentals">
                     <div className="icon-container">
                         <div className="icon">
                             <AiFillHtml5 style={{ fontSize: "4rem", color: "#E67E22" }} />
@@ -44,10 +44,9 @@ const SkillsSet = () => {
                             <p className="icon-name">Responsive Design</p>
                         </div>
                     </div>
-                </div>
+                </ContentItemBox>
 
-                <div className="box-style right-box">
-                    <p className="box-title-skills-set">Frameworks</p>
+                <ContentItemBox classNameBox="small" classNameTitle="style-01" title="Frameworks">
                     <div className="icon-container">
                         <div className="icon">
                             <SiDotNet style={{ fontSize: "4rem", color: "#2980B9" }} />
@@ -64,20 +63,18 @@ const SkillsSet = () => {
                             <p className="icon-name">React Native</p>
                         </div>
                     </div>
-                </div>
+                </ContentItemBox>
 
-                <div className="box-style left-box">
-                    <p className="box-title-skills-set">Version Control</p>
+                <ContentItemBox classNameBox="small" classNameTitle="style-01" title="Version Control">
                     <div className="icon-container">
                         <div className="icon">
                             <FaGitAlt style={{ fontSize: "4rem", color: "#E67E22" }} />
                             <p className="icon-name">Git</p>
                         </div>
                     </div>
-                </div>
+                </ContentItemBox>
 
-                <div className="box-style right-box">
-                    <p className="box-title-skills-set">Database</p>
+                <ContentItemBox classNameBox="small" classNameTitle="style-01" title="Database">
                     <div className="icon-container">
                         <div className="icon">
                             <SiMicrosoftsqlserver style={{ fontSize: "4rem", color: "#2980B9" }} />
@@ -88,10 +85,9 @@ const SkillsSet = () => {
                             <p className="icon-name">Firebase</p>
                         </div>
                     </div>
-                </div>
+                </ContentItemBox>
 
-                <div className="box-style full-box">
-                    <p className="box-title-skills-set">Programming Languages</p>
+                <ContentItemBox classNameBox="big" classNameTitle="style-01" title="Programming Languages">
                     <div className="icon-container">
                         <div className="icon">
                             <SiJava style={{ fontSize: "4rem", color: "#7B241C" }} />
@@ -113,10 +109,9 @@ const SkillsSet = () => {
                             <p className="icon-name">JavaScript ES6+</p>
                         </div>
                     </div>
-                </div>
+                </ContentItemBox>
 
-                <div className="box-style left-box">
-                    <p className="box-title-skills-set">Agile Methodologies</p>
+                <ContentItemBox classNameBox="small" classNameTitle="style-01" title="Agile Methodologies">
                     <div className="icon-container">
                         <div className="icon">
                             <DiScrum style={{ fontSize: "4rem", color: "#2980B9" }} />
@@ -128,20 +123,19 @@ const SkillsSet = () => {
                             <p className="icon-name">Trello</p>
                         </div>
                     </div>
-                </div>
+                </ContentItemBox>
 
-                <div className="box-style right-box">
-                    <p className="box-title-skills-set">UI Design</p>
+                <ContentItemBox classNameBox="small" classNameTitle="style-01" title="UI Design">
                     <div className="icon-container">
                         <div className="icon">
                             <SiAdobexd style={{ fontSize: "4rem", color: "#C71585" }} />
                             <p className="icon-name">Adobe XD</p>
                         </div>
                     </div>
-                </div>
+                </ContentItemBox>
             </ContentItemBoxGroup>
         </ContentItem>
-    )
+    );
 }
 
-export default SkillsSet
+export default SkillsSet;

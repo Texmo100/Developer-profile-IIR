@@ -25,56 +25,6 @@ ul{
   padding: 0;
 }
 /*---- About me page styles ----*/
-.box-style{
-  min-height: 15rem;
-  max-height: 100%;
-  background-color: var(--white);
-  border: 1px solid var(--color-line);
-  border-radius: 1rem;
-  margin: 1rem 0;
-}
-.full-box{
-  width: 100%;
-}
-.left-box, .right-box{
-  flex: 0 0 calc(50% - 1rem);
-}
-.full-box, .left-box, .right-box{
-  padding: 1rem;
-}
-@media screen and (max-width: 980px){
-  .left-box, .right-box{
-    flex: 0 0 100%;
-  }
-}
-.box-title-skills-set{
-  font-size: 2rem;
-  font-weight: 300;
-  padding-left: 1rem;
-  margin-bottom: 2rem;
-  position: relative;
-}
-.box-title-skills-set::before{
-  content: '';
-  display: block;
-  width: 0.2rem;
-  height: 100%;
-  background-color: var(--y-color);
-  border-radius: 10rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-@media screen and (max-width: 980px){
-  .box-title-skills-set{
-    text-align: center;
-    padding-left: 0;
-    position: initial;
-  }
-  .box-title-skills-set::before{
-    display: none;
-  }
-}
 .icon-container{
   display: flex;
   justify-content: space-evenly;
@@ -92,21 +42,6 @@ ul{
 .icon-name{
   font-size: 1.4rem;
   margin-top: 0.5rem;
-}
-.box-title-skills{
-  font-size: 2rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
-  text-align: center;
-  position: relative;
-}
-.box-title-skills::after{
-  content: '';
-  display: block;
-  width: 100%;
-  height: 0.2rem;
-  background-color: #D3D3D3;
-  border-radius: 10rem;
 }
 .skills-container{
   display: flex;
