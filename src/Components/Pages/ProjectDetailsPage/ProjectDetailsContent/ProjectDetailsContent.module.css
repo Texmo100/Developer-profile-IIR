@@ -1,0 +1,29 @@
+.project-details-content {
+    height: calc(100% - 10rem);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, minmax(auto, 100%));
+    row-gap: 2rem;
+    margin-top: 2rem;
+}
+
+.group-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 10rem;
+    max-height: 100%;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__name {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}

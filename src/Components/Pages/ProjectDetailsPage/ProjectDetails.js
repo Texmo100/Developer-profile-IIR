@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from "react-router-dom";
 import PagesWrapper from '../../UI/PagesWrapper/PagesWrapper';
-import ProjectDetailsContent from './ProjectDetailsContent';
+import ProjectDetailsContent from './ProjectDetailsContent/ProjectDetailsContent';
 
 const ProjectDetails = () => {
     const location = useLocation()
@@ -11,7 +11,7 @@ const ProjectDetails = () => {
         <PagesWrapper classNameTitle="left" title={state.name}>
             <ProjectDetailsContent project={state}/>
         </PagesWrapper>
-    )
+    );
 }
 
 export default ProjectDetails;

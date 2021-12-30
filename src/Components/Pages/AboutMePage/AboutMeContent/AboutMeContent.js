@@ -2,8 +2,8 @@ import React from 'react';
 import aboutMeData from '../../../../data/aboutMeData';
 import Profile from '../Profile';
 import Education from '../Education';
-import SkillsSet from '../SkillsSet';
-import Skills from '../Skills';
+import SkillsSet from '../SkillsSet/SkillsSet';
+import Skills from '../Skills/Skills';
 import styles from './AboutMeContent.module.css';
 
 const AboutMeContent = () => {
