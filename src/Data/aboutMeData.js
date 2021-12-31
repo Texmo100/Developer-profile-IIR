@@ -291,4 +291,4 @@ const aboutMeData = {
     ]
 }
 
-export default aboutMeData
+export default aboutMeData;
