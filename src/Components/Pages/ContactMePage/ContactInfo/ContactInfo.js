@@ -11,23 +11,23 @@ const ContactInfo = () => {
         <div className={styles["contact-info"]}>
             <ul className={styles["contact-info-content"]}>
                 <li className={styles["contact-info-content__item"]}>
-                    <MdMail style={{ fontSize: "3rem", color: "#8B008B" }} />
+                    <MdMail style={{ fontSize: "3rem", color: "#166695" }} />
                     <p>ir.isaac1000@gmail.com</p>
                 </li>
                 <li className={styles["contact-info-content__item"]}>
-                    <BsPhone style={{ fontSize: "3rem", color: "#4097CC" }} />
+                    <BsPhone style={{ fontSize: "3rem", color: "black" }} />
                     <p>6621194655</p>
                 </li>
                 <li className={styles["contact-info-content__item"]}>
-                    <FaLinkedin style={{ fontSize: "3rem", color: "#00FA9A" }} />
+                    <FaLinkedin style={{ fontSize: "3rem", color: "#166695" }} />
                     <p>Isaac I.R.</p>
                 </li>
                 <li className={styles["contact-info-content__item"]}>
-                    <AiFillGithub style={{ fontSize: "3rem", color: "aqua" }} />
+                    <AiFillGithub style={{ fontSize: "3rem", color: "black" }} />
                     <p>Texmo100</p>
                 </li>
                 <li className={styles["contact-info-content__item"]}>
-                    <FaGitlab style={{ fontSize: "3rem", color: "#A0522D" }} />
+                    <FaGitlab style={{ fontSize: "3rem", color: "#FF5733" }} />
                     <p>Texmo100</p>
                 </li>
             </ul>

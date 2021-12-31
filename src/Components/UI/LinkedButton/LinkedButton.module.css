@@ -1,4 +1,4 @@
-.button{
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
     font-size: 1.8rem;
 }
 
-.main-image__content__button{
+.main-image__content__button {
     width: 20rem;
     height: 4rem;
     background-color: var(--white-transparent);
@@ -17,43 +17,42 @@
     transition: all 500ms ease;
 }
 
-.main-image__content__button:hover{
+.main-image__content__button:hover {
     cursor: pointer;
     background-color: var(--black-transparent);
     border: 1px solid var(--white);
 }
 
-.about-me__content__button{
+.about-me__content__button {
     width: 20rem;
     height: 4rem;
-    background-color: var(--main-color-1);
-    color: var(--white);
+    border: 1px solid var(--main-color-1);
+    color: var(--main-color-1);
     margin-top: 2rem;
     padding: 1rem;
     transition: all 500ms ease;
 }
 
-.about-me__content__button:hover{
+.about-me__content__button:hover {
     cursor: pointer;
-    background-color: var(--white);
-    border: 1px solid var(--main-color-1);
-    color: var(--main-color-1);
+    background-color: var(--main-color-1);
+    color: var(--white);
 }
 
-.button-all-projects{
+.button-all-projects {
     align-self: center;
     width: 25%;
     height: 5rem;
-    background-color: var(--main-color-1);
-    color: var(--white);
+    background-color: var(--white);
+    border: 1px solid var(--main-color-1);
+    color: var(--main-color-1);
     border-radius: 0;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    border: 1px solid transparent;
     transition: all 500ms ease;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 980px) {
     .button-all-projects{
         width: 70%;
         height: 4rem;
@@ -61,26 +60,25 @@
     }
 }
 
-.button-all-projects:hover{
+.button-all-projects:hover {
     cursor: pointer;
-    background-color: var(--white);
-    border: 1px solid var(--main-color-1);
-    color: var(--main-color-1);
+    background-color: var(--main-color-1);
+    color: var(--white);
 }
 
-.button-project-card{
+.button-project-card {
     width: 20rem;
     height: 4rem;
-    background-color: var(--y-violet);
-    color: var(--white);
+    background-color: var(--white);
+    border: 1px solid var(--y-orange);
+    color: var(--y-orange);
     margin-top: 2rem;
     padding: 1rem;
     transition: all 500ms ease;
   }
   
-  .button-project-card:hover{
+  .button-project-card:hover {
     cursor: pointer;
-    background-color: var(--white);
-    border: 1px solid var(--y-violet);
-    color: var(--y-violet);
+    background-color: var(--y-orange);
+    color: var(--white);
   }

@@ -13,24 +13,24 @@ const ContactMeSection = () => {
                 <div className={styles["contact-me__content__desc"]}>
                     <h4>Get in Touch</h4>
                     <ul className={styles["contact-me__content__desc__items"]}>
-                        <li>
-                            <MdMail style={{ fontSize: "3rem", color: "#8B008B" }} />
+                        <li className={styles["contact-info-content__item"]}>
+                            <MdMail style={{ fontSize: "3rem", color: "#166695" }} />
                             <p>ir.isaac1000@gmail.com</p>
                         </li>
-                        <li>
-                            <BsPhone style={{ fontSize: "3rem", color: "#4097CC" }} />
+                        <li className={styles["contact-info-content__item"]}>
+                            <BsPhone style={{ fontSize: "3rem", color: "black" }} />
                             <p>6621194655</p>
                         </li>
-                        <li>
-                            <FaLinkedin style={{ fontSize: "3rem", color: "#00FA9A" }} />
+                        <li className={styles["contact-info-content__item"]}>
+                            <FaLinkedin style={{ fontSize: "3rem", color: "#166695" }} />
                             <p>Isaac I.R.</p>
                         </li>
-                        <li>
-                            <AiFillGithub style={{ fontSize: "3rem", color: "aqua" }} />
+                        <li className={styles["contact-info-content__item"]}>
+                            <AiFillGithub style={{ fontSize: "3rem", color: "black" }} />
                             <p>Texmo100</p>
                         </li>
-                        <li>
-                            <FaGitlab style={{ fontSize: "3rem", color: "#A0522D" }} />
+                        <li className={styles["contact-info-content__item"]}>
+                            <FaGitlab style={{ fontSize: "3rem", color: "#FF5733" }} />
                             <p>Texmo100</p>
                         </li>
                     </ul>
