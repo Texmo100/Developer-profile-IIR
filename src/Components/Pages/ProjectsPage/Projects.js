@@ -4,7 +4,7 @@ import ProjectCards from '../../UI/ProjectCards/ProjectCards';
 
 const Projects = () => {
     return (
-        <PagesWrapper classNameTitle="center" title="Projects">
+        <PagesWrapper classNameTitle="center" title="Projects" image="projects">
             <ProjectCards />
         </PagesWrapper>
     );

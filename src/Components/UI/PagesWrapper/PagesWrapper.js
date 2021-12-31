@@ -6,7 +6,7 @@ import styles from './PagesWrapper.module.css';
 const PagesWrapper = props => {
     return (
         <div className={styles["pages-wrapper"]}>
-            <GlobalHeader image="header-image-about-me" />
+            <GlobalHeader image={props.image} />
             <div className={styles["body-page"]}>
                 <div className={styles["body-page-content"]}>
                     <h1 className={

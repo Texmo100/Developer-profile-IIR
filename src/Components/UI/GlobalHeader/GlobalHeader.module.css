@@ -2,28 +2,28 @@
     grid-column: 1 / -1;
 }
 
-.header-image-contact-me{
+.header-image--contact-me{
     background-image: url('../../../assets/img-bar.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.header-image-about-me{
+.header-image--about-me{
     background-image: url('../../../assets/profile-01.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.header-image-projects{
+.header-image--projects{
     background-image: url('../../../assets/profile-02.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.header-image-project-details{
+.header-image--project-details{
     background-image: url('../../../assets/project-background.jpg');
     background-position: center center;
     background-size: cover;

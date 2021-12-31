@@ -8,7 +8,7 @@ const ProjectDetails = () => {
     const { state } = location //all project data
 
     return (
-        <PagesWrapper classNameTitle="left" title={state.name}>
+        <PagesWrapper classNameTitle="left" title={state.name} image="project-details">
             <ProjectDetailsContent project={state}/>
         </PagesWrapper>
     );
