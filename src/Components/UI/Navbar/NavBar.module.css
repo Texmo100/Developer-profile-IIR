@@ -39,6 +39,7 @@
 
 .navbar-list__item:hover {
     cursor: pointer;
+    background-color: black;
     transform: scale(1.2);
 }
 
@@ -47,5 +48,9 @@
         padding: 0;
         background-color: transparent;
         border-radius: initial;
+    }
+
+    .navbar-list__item:hover {
+        background-color: transparent;
     }
 }
