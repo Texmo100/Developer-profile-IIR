@@ -4,7 +4,7 @@ const aboutMeData = {
         {
             id: 1,
             name: "S.M. MVC",
-            description: "MVC Management system to improve human-resource, administration and finance process through an easy and modern web-app",
+            description: "MVC Management system to improve human-resource, administration and finance process through an easy and modern web-app.",
             frameworks: [
                 {
                     id: 1,
@@ -65,7 +65,7 @@ const aboutMeData = {
         {
             id: 2,
             name: "Haat",
-            description: "Increase cultural-product sales through a mobile app oriented in QR Scanning",
+            description: "Increase cultural-product sales through a mobile app oriented in QR Scanning.",
             frameworks: [
                 {
                     id: 1,
